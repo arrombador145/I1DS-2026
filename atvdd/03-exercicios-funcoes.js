@@ -13,4 +13,5 @@ console.log("o ano de nascimento dessa pessoa é:", anonascimento)
 
 let num1 = 1970
 let num2 = 2026
-function subtarcao
+let resultado = num2 - num1
+console.log(resultado)
