@@ -49,12 +49,37 @@ console.log("----------------------------------------------------------------");
 // desvios aninhados - if - else - if - else...
 
 let semaforo = "azul";
-if(semaforo == "vermelho"){
-console.log("pare")
-}else if(semaforo == "amarelo"){
-console.log("atenção")
-}else if(semaforo == "verde"){
-    console.log("pode ir")
+if (semaforo == "vermelho") {
+  console.log("pare");
+} else if (semaforo == "amarelo") {
+  console.log("atenção");
+} else if (semaforo == "verde") {
+  console.log("pode ir");
 } else {
-    console.log("opção incorreta")
+  console.log("opção incorreta");
 }
+
+//criando variaveis locais (só existem dentro do bloco onde foram criadas)
+
+let mes = "agosto";
+let dia = "15";
+
+if (dia == 15 && mes == "agosto") {
+  let mensagem = "hoje é dia 15 de agosto";
+  console.log("mensagem");
+}
+
+// if ternário (IF Inline)
+
+let preco = 500;
+let resultado = (preco <= 100) ? "tá barato" : "tá caro"
+console.log("preço:", preco, "-", resultado)
+
+// o código acima, faz exatamente a mesma coisa  que o debaixo
+
+if(preco <= 100){
+    resultado = "tá barato"
+}else{
+    resultado = "vish, tá caro"
+}
+console.log("preço:", preco, "-", resultado)
