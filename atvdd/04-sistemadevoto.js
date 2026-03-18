@@ -77,7 +77,6 @@ console.log("nota:", minnota, "-", notadele ( minnota));
  minnota = 4.5;
 console.log("nota:", minnota, "-", notadele ( minnota));
 
-
 //----------------------------------------------------------------------
 
 // correto
