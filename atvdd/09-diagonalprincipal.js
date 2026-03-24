@@ -28,10 +28,11 @@ for (let i = 0; i < 3; i++) {
 */
 console.log("-----------------------------------------------------")
 
- let = motroz [
- [8, 1, 3]
- [2, 9, 1]
- [4, 6, 2] 
- ]
+ let matriz1 = [
+    [8, 1, 3],
+    [2, 9, 1],
+    [4, 6, 2], 
+ ];
+ console.table(matriz1);
 
- console.table(motroz);
+ let x = 5
