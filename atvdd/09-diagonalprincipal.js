@@ -36,10 +36,18 @@ console.log("-----------------------------------------------------")
  console.table(matriz1);
 
  let x = 5
- for (let lin = 0; lin < lin.length; lin++) {
-    for (let col = 0; col < col.length; col++) {
+
+ for (let lin = 0; lin < lin.length; i++) {
+    for (let col = 0; col < col.length; i++) {
+       matriz1[lin][col] = matriz1 = [lin][col] * x
         console.log("matriz1:[ ", matriz1, ",", col, "] =", matriz1[lin][col])
         
     }
     
  }
+
+ console.table(matriz1);
+ console.table([0][0]) * x
+ console.table([0][1]) * x
+ console.table([0][2]) * x
+ console.log("----------------------------------")
