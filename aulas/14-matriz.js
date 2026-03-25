@@ -38,6 +38,6 @@ console.table(metez);
 
 console.log("-----------------------------------");
 
-for (let linha = 0; linha, metez.length; linha++)
-  for (let coluna = 0; coluna, metez.length; coluna++)
+for (let linha = 0; linha < metez.length; linha++)
+  for (let coluna = 0; coluna < metez.length; coluna++)
     console.log("matriz[", linha, ",", coluna, "] =", metez[linha][coluna]);

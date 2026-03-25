@@ -36,3 +36,10 @@ console.log("-----------------------------------------------------")
  console.table(matriz1);
 
  let x = 5
+ for (let lin = 0; lin < lin.length; lin++) {
+    for (let col = 0; col < col.length; col++) {
+        console.log("matriz1:[ ", matriz1, ",", col, "] =", matriz1[lin][col])
+        
+    }
+    
+ }
