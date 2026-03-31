@@ -95,4 +95,21 @@ let segundo = minuto * 60
 console.log("em minutos vira: ", minuto)
 console.log("em segundos vira: ", segundo)
 
+console.log("tem ", par, "de numeros pares.")
 console.log("============================================")
+
+//12
+let mum = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+let par = 0
+let impar = 0
+
+
+for (let i = 0; i < mum.length; i++) {
+    if (mum[i] % 2 == 0)  par++
+    else impar++
+}
+
+console.log("tem ", par, "de numeros pares.")
+console.log("tem ", impar, "de numeros impares.")
+console.log("============================================")
+
