@@ -97,20 +97,6 @@ console.log("em segundos vira: ", segundo);
 
 console.log("============================================");
 
-//13
-let mum = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15];
-let par = 0;
-let impar = 0;
-
-for (let i = 0; i < mum.length; i++) {
-  if (mum[i] % 2 == 0) par++;
-  else impar++;
-}
-
-console.log("tem ", par, "de numeros pares.");
-console.log("tem ", impar, "de numeros impares.");
-console.log("============================================");
-
 //12
 let mul = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15];
 
@@ -176,3 +162,136 @@ if (userdigitado === usuariosalvo && senhadigitada === senhasalva) {
     console.log("usuário ou senha incorretos.");
 }
 console.log("============================================");
+//18
+let an = 10, bn = 20;
+if (an > bn) {
+    console.log(`${an} é o maior`);
+} else {
+    console.log(`${bn} é o maior`);
+}
+console.log("============================================");
+//19
+let x = 15, y = 30, z = 20;
+if (x >= y && x >= z) {
+    console.log(`${x} é o maior`);
+} else if (y >= x && y >= z) {
+    console.log(`${y} é o maior`);
+} else {
+    console.log(`${z} é o maior`);
+}
+console.log("============================================");
+//20
+let idade = 35;
+
+if (idade >= 0 && idade <= 12) {
+    console.log("criança");
+} else if (idade <= 17) {
+    console.log("adolescente");
+} else if (idade <= 59) {
+    console.log("adulto");
+} else {
+    console.log("idoso");
+}
+console.log("============================================");
+// 21
+let dia = 3;
+switch (dia) {
+    case 1: console.log("domingo"); break;
+    case 2: console.log("segunda"); break;
+    case 3: console.log("terça"); break;
+    default: console.log("dia inválido")
+console.log("============================================");
+// 22 e 23
+let mes = 5;
+switch (mes) {
+    case 1: case 2: case 3: console.log("1º trimestre"); break;
+    case 4: case 5: case 6: console.log("2º trimestre"); break;
+    // ... e assim por diante
+}
+}
+console.log("============================================");
+//24
+let operacao = 1; 
+let n1 = 10, n2 = 5;
+switch (operacao) {
+    case 1: console.log(n1 + n2); break;
+    case 2: console.log(n1 - n2); break;
+    case 3: console.log(n1 * n2); break;
+    case 4: console.log(n1 / n2); break;
+}
+console.log("============================================");
+//25
+let oqacho = "A";
+switch (oqacho) {
+    case "A": console.log("excelente"); break;
+    case "B": console.log("bom"); break;
+    case "C": console.log("regular"); break;
+    case "D": console.log("ruim"); break;
+}
+console.log("============================================");
+// 26
+for (let i = 1; i <= 100; i++) {
+    console.log(i);
+}
+console.log("============================================");
+
+// 27
+for (let i = 100; i >= 1; i--) {
+    console.log(i);
+}
+console.log("============================================");
+
+// 28
+for (let i = 1; i <= 50; i++) {
+    if (i % 2 === 0) console.log(i);
+}
+console.log("============================================");
+
+// 29
+for (let i = 1; i <= 50; i++) {
+    if (i % 2 !== 0) console.log(i);
+}
+console.log("============================================");
+
+// 30
+let somaTotal = 0;
+for (let i = 1; i <= 100; i++) {
+    somaTotal += i;
+}
+console.log("soma total:", somatotal);
+console.log("============================================");
+
+// 31
+let nfatorial = 5; 
+let resultado1 = 1;
+for (let i = nfatorial; i > 1; i--) {
+    resultado1 *= i;
+}
+console.log(`O fatorial de ${nfatorial} é ${resultado1}`);
+console.log("============================================");
+
+let tabuadade = 7;
+for (let i = 1; i <= 10; i++) {
+    console.log(`${tabuadade} x ${i} = ${tabuadade * i}`);
+}
+console.log("============================================");
+
+// 33.
+let contadorpares = 0;
+for (let i = 1; i <= 100; i++) {
+    if (i % 2 === 0) contadorpares++;
+}
+console.log(`Existem ${contadorpares} números pares.`);
+console.log("============================================");
+
+// 34
+for (let i = 0; i <= 100; i += 5) {
+    console.log(i);
+}
+console.log("============================================");
+
+// 35
+let linhas = 5;
+for (let i = 1; i <= linhas; i++) {
+    console.log("*".repeat(i));
+}
