@@ -23,3 +23,13 @@ const cadastrar = (event) => {
 };
 
 /*resolucao */
+const excluir = (id) => {
+    const lista = document.getElementById("lista")
+    const itens = document.querySelectorAll("li")
+
+    itens.forEach((item)) = "" ; {
+        if (item.innerHTML.includes(id)) {
+            item.remove()
+        };
+    }
+}
