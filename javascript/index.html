@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Javascript | Html Dinamico</title>
-    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/estilo.css" />
   </head>
   <body>
     <h1>Html Dinâmico com Javascript</h1>
@@ -17,7 +17,7 @@
         Criar um contador com botão +1 botão -1 e Reset
       </p>
 
-      <div id="ex01">
+      <div class="exercicio">
         <h3>Contador</h3>
         <p id="contador">0</p>
         <div class="grupo-botoes">
@@ -28,6 +28,48 @@
       </div>
     </div>
 
+    <div class="card">
+        <h2>exercicio 2</h2>
+        <h3>seletor de cores</h3>
+
+        <div class="exercicio">
+            <h3>seletor de cores</h3>
+            <p>
+                <span>objetivo:</span>
+                selecionar uma cor no color picker e aplica-la a um quadrado
+            </p>
+
+            <label>escolha uma cor:</label>
+            <input type="color" id="colorpicker" placeholder="selecione uma cor" oniput="mudarcor()" />
+            <div id="quadrado"></div>
+        </div>
+
+    </div>
+
+    <div class="card">
+        <h2>exercicio 3</h2>
+        
+        <h3>calculadora simples</h3>
+        <div class="exercicio">
+            <h3>calculadora de operacoes básicas</h3>
+            <p>
+                criar uma calculadora que faz operacoes de soma, subtrcao, multiplicacao e divisao
+            </p>
+
+            <div class="exercicio">
+                <h3>calculadora de operacoes basicas</h3>
+                <input type="number" id="num1" placeholder="numero 1" />
+                <input type="number" id="num2" placeholder="numero 2" />
+                <div class="grupodebotoes">
+                    <button id="btn-soma" onclick="somar()">+</button>
+                    <button id="btn-subtracao" onclick="subtrair()">-</button>
+                    <button id="btn-multiplicar" onclick="multiplicar()">x</button>
+                    <button id="btn-dividir" onclick="dividir()">:</button>
+                </div>
+                <p id="resultado" ></p>
+            </div>
+        </div>
+    </div>
     <script src="js/scripts.js"></script>
   </body>
 </html>
