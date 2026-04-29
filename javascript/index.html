@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Javascript | Html Dinamico</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <h1>Html Dinâmico com Javascript</h1>
+
+    <div class="card">
+      <h2>Exercício 01</h2>
+      <h3>Contador Simples</h3>
+      <p>
+        <span>Objetivo:</span>
+        Criar um contador com botão +1 botão -1 e Reset
+      </p>
+
+      <div id="ex01">
+        <h3>Contador</h3>
+        <p id="contador">0</p>
+        <div class="grupo-botoes">
+          <button id="btn-menos" onclick="diminuir()">-1</button>
+          <button id="btn-zerar" onclick="zerar()">Zerar</button>
+          <button id="btn-mais" onclick="adicionar()" >+1</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
